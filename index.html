@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jagss' Air play </title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="icon container" href="./images/logopng.png" />
+  </head>
+  <body>
+      <div class="heading">
+        <h1> Jagss' Air Play 🎧 </h1>
+      </div>
+    <div class="main">
+      <p id="logo"> music <i class="fa fa-music" aria-hidden="true"></i></p>
+      <div class="left">
+        <!-- song image  -->
+        <img id="track_image" />
+        <div class="volume">
+          <p class="volume_show">90</p>
+          <i
+            class="fa fa-volume-up"
+            aria-hidden="true"
+            id="volume_icon"
+            onclick="mute_sound()"
+          ></i>
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="90"
+            onchange="volume_change()"
+            id="volume"
+          />
+        </div>
+      </div>
+
+      <!-- right part  -->
+      <div class="right">
+        <div class="show_song_no">
+          <p id="present">1</p>
+          <p>/</p>
+          <p id="total">5</p>
+        </div>
+
+        <!-- song title   -->
+        <p id="title">title.mp3</p>
+        <p id="artist">artist name</p>
+
+        <!-- middle part  -->
+        <div class="middle">
+          <button id="pre" onClick="previous_song()">
+            <i class="fa fa-step-backward" aria-hidden="true"></i>
+          </button>
+          <button onClick="justplay()" id="play">
+            <i class="fa fa-play" aria-hidden="true"></i>
+          </button>
+          <button id="next" onclick="next_song()">
+            <i class="fa fa-step-forward" aria-hidden="true"></i>
+          </button>
+        </div>
+
+        <!-- song part  -->
+        <div class="duration">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            id="duration_slider"
+            onchange="change_direction()"
+          />
+        </div>
+        <button id="auto" onClick="autoplay_switch()">
+          Auto Play <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
