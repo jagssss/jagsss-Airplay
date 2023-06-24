@@ -187,13 +187,14 @@ function range_slider() {
 
   if(track.ended){
       play.innerHTML ='<i class="fa fa-play"></i>';
-  }
-  if(autoplay==1){
+    if(autoplay==1){
       index_no+=1;
       load_track(index_no);
       playsong();
       
   }
+  }
+  
 }
 
 
