@@ -30,6 +30,12 @@ let All_song = [
     singer: "Justin Bieber ✨",
   },
   {
+    name: "Kahani Suno 2.0 🔥",
+    path: "sound/Kahani Suno 2.0.mp3",
+    img: "images/Kahani-Suno 2.0.jpg",
+    singer: "Kaifi Khalil ✨",
+  },
+  {
     name: "Better 🔥",
     path: "sound/better.mp3",
     img: "images/better.jpg",
@@ -187,12 +193,14 @@ function range_slider() {
 
   if(track.ended){
       play.innerHTML ='<i class="fa fa-play"></i>';
-    if(autoplay==1){
-      index_no+=1;
-      load_track(index_no);
-      playsong();
       
-  }
+      if(autoplay==1){
+        index_no+=1;
+        load_track(index_no);
+        autoplay==0;
+        playsong();
+        
+    }
   }
   
 }
