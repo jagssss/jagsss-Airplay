@@ -192,6 +192,7 @@ function range_slider() {
       index_no+=1;
       load_track(index_no);
       playsong();
+      
   }
 }
 
