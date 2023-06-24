@@ -42,6 +42,12 @@ let All_song = [
     singer: "Khalid ✨",
   },
   {
+    name: " Ram Siya Ram 🙏🏻",
+    path: "sound/Ram Siya Ram.mp3",
+    img: "images/Ram-Siya.gif",
+    singer: "Sachet Tandon ✨",
+  },
+  {
     name: "Holly 🔥",
     path: "sound/holly.mp3",
     img: "images/holly.jpg",
