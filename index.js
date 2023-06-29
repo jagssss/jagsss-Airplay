@@ -48,6 +48,12 @@ let All_song = [
     singer: "Sachet Tandon ✨",
   },
   {
+    name: "Makeba 🔥",
+    path: "sound/makeba.mp3",
+    img: "images/makeba.jpeg",
+    singer: "Jain ✨",
+  },
+  {
     name: "Holly 🔥",
     path: "sound/holly.mp3",
     img: "images/holly.jpg",
