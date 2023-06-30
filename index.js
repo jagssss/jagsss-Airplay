@@ -60,6 +60,12 @@ let All_song = [
     singer: "Justin Bieber ✨",
   },
   {
+    name: "Hymn for the Weekend 🔥",
+    path: "sound/hymn4weekend.mp3",
+    img: "images/hymn4weekend.jpeg",
+    singer: "Coldplay ✨",
+  },
+  {
     name: "Intentions 🔥",
     path: "sound/intent.mp3",
     img: "images/inten.jpg",
