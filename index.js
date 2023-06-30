@@ -24,6 +24,12 @@ let track = document.createElement("audio");
 // songs list
 let All_song = [
   {
+    name: " Ram Siya Ram 🙏🏻",
+    path: "sound/Ram Siya Ram.mp3",
+    img: "images/Ram-Siya.gif",
+    singer: "Sachet Tandon ✨",
+  },
+  {
     name: "Peaches 🔥",
     path: "sound/Peaches.mp3",
     img: "images/peaches.jpg",
@@ -40,12 +46,6 @@ let All_song = [
     path: "sound/better.mp3",
     img: "images/better.jpg",
     singer: "Khalid ✨",
-  },
-  {
-    name: " Ram Siya Ram 🙏🏻",
-    path: "sound/Ram Siya Ram.mp3",
-    img: "images/Ram-Siya.gif",
-    singer: "Sachet Tandon ✨",
   },
   {
     name: "Makeba 🔥",
